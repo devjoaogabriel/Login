@@ -1,0 +1,15 @@
+@media (max-width: 1024px) {
+    section.figure_class {
+        display: none;
+    }
+    section.form_class {
+        width: 100vw;
+    }
+}
+@media (max-width: 420px) {
+    main {
+        min-width: 430px;
+        justify-content: center;
+        align-items: center;
+    }
+}

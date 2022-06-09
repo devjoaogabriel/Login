@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html {
+    /* A cada 1em será considerado 10px */
+    font-size: 62.5%;
+}
+html,
+body {
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+    font-size: 1.6rem;
+}
+main {
+    display: flex;
+}
+label {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1A202C;
+}
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.figure_class {
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    background-color: #F7FAFC;
+}
+.figure_class figcaption {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px 0;
+    width: 100%;
+}
+.figure_container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+div.draw_figure {
+    width: 650px;
+    height: 450px;
+}
+.svg_login {
+    width: 100%;
+    height: 100%;
+}
+.form_class {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+}
+.form_container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box_form div {
+    margin: 10px 0px;
+}
+.box_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 355px;
+    height: 100vh;
+}
+.welcome_text > h3 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A202C;
+}
+.welcome_text > h1 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 33px;
+    color: #1A202C;
+}
+.box_email {
+    display: flex;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    height: 50px;
+    width: 350px;
+}
+.box_email input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A202C;
+}
+.box_passwd {
+    display: flex;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    height: 50px;
+    width: 350px;
+}
+.box_passwd input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.checkbox_class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox_class > label {
+    margin-left: -75px;
+    
+}  
+.check_class {
+    order: -1;
+    width: 20px;
+    height: 20px;
+}
+.checkbox_class a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    color: #2B6CB0;
+    transition: all ease-in 0.3s;
+}
+.checkbox_class a:hover {
+    color: #7ebcff;
+    transition: all ease-in 0.3s;
+}
+.btn_logon .log_with_Google{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+}
+.btn_logon input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #04C35C;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    transition: all ease-in 0.3s;
+}
+.btn_logon input:hover {
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+    /* background-color: rgba(46, 209, 114, 0.8); */
+    filter: brightness(1.13);
+    box-shadow: 5px 5px 8px rgba(121, 121, 121, 0.39);
+}
+.log_with_Google input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1A202C;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    background-image: url(../assets/images/icon_Google.svg);
+    background-repeat: no-repeat;
+    background-position: 55px;
+    transition: all ease-in 0.3s;
+}
+.log_with_Google input:hover {
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+    background-color: rgba(39, 46, 61, 0.8);
+    /* filter: brightness(1.3); */
+    box-shadow: 5px 5px 8px rgba(121, 121, 121, 0.39);
+}
+.sign_in_class {
+    display: flex;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1A202C;
+}
+.sign_in_class a {
+    text-decoration: none;
+    color: #2B6CB0;
+    transition: all ease-in 0.3s;
+}
+.sign_in_class a:hover {
+    color: #7ebcff;
+    transition: all ease-in 0.3s;
+}   
+* ::selection {
+    background-color: #04C35C;
+    color: #F7FAFC;
+}
