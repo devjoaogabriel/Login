@@ -6,7 +6,7 @@
 
 <img src="./LoginPage.png"/>
 
-<h4 align="center"><a href="https://devjoaogabriel.github.io/Login/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://devjoaogabriel.github.io/login-page/">Clique para visitar o projeto</a></h4>
 
 ---
 
