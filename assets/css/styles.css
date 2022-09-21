@@ -22,6 +22,7 @@ body {
 
 main {
     display: flex;
+    position: relative;
 
 }
 
@@ -56,8 +57,9 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-flow: column wrap;
+    flex-flow: nowrap column;
     row-gap: 20px;
+    align-items: center;
 }
 
 .form-box div {
@@ -138,8 +140,7 @@ a {
 }
 
 .sign-in {
-    position: absolute;
-    bottom: 50px;
+    display: flex;
     font: 600 normal 1.6rem/1.9rem 'Lato', sans-serif;
 }
 
