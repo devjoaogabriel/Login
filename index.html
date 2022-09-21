@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="João Gabriel" />
-    
+
     <!-- Import CSS, fonts and icons -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link
       rel="shortcut icon"
-      href="./assets/img/user-tag.svg"
+      href="./assets/img/person.svg"
       type="image/x-icon"
     />
     <title>Faça login na sua conta</title>
@@ -25,54 +25,67 @@
   <body>
     <main>
       <div class="image container">
-        <img src="./assets/img/icons_svg_login.svg" alt="Imagem Figurativa">
+        <img src="./assets/img/icons_svg_login.svg" alt="Imagem Figurativa" />
       </div>
       <div class="form container">
-
         <div class="form-box">
-
           <div class="hd-form">
             <p>Bem vindo de volta</p>
             <h2>Faça login na sua conta</h2>
           </div>
 
-
           <div class="wrapper-inputs">
-
             <div class="line">
               <label for="email">E-mail</label>
-              <input type="email" name="email" autocomplete="off" id="email-id" placeholder="your-email@email.com">
+              <input
+                type="email"
+                pattern="[a-z]"
+                name="email"
+                autocomplete="off"
+                id="email-id"
+                placeholder="your-email@email.com"
+              />
             </div>
 
-           <div class="line">
-              <label for="email">Senha</label>
-              <input type="password" name="passwd" id="passwd-id" placeholder="Senha">
+            <div class="line">
+              <label for="passwd">Senha</label>
+              <input
+                type="password"
+                name="passwd"
+                id="passwd-id"
+                placeholder="Senha"
+              />
             </div>
 
             <div class="remember">
               <div>
-                <input type="checkbox" name="remember" id="remember-id" placeholder="Lembre de mim">
+                <input
+                  type="checkbox"
+                  name="remember"
+                  id="remember-id"
+                  placeholder="Lembre de mim"
+                />
                 <label for="remember">Lembre de mim</label>
               </div>
               <a href="#" rel="noopener noreferrer">Esqueceu sua senha?</a>
             </div>
-
           </div>
 
           <div class="submit-login">
             <button type="submit" class="form-bt log">Entrar</button>
             <button type="submit" class="form-bt log-google">
-              <img src="./assets/img/icon_Google.svg" alt="Icone do Google">
+              <img src="./assets/img/icon_Google.svg" alt="Icone do Google" />
               Ou faça login com o Google
             </button>
           </div>
-
         </div>
 
         <div class="sign-in">
-          <p>Não tem uma conta? <a href="#" rel="noopener noreferrer">Cadastre-se</a></p>
+          <p>
+            Não tem uma conta?
+            <a href="#" rel="noopener noreferrer">Cadastre-se</a>
+          </p>
         </div>
-
       </div>
     </main>
   </body>
