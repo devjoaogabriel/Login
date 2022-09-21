@@ -209,4 +209,8 @@ a:focus-within {
     .hd-form p {
         font-size: 1.4rem;
     }
+
+    .remember div label, .remember a, .sign-in {
+        font-size: 1.2rem;
+    }
 }
