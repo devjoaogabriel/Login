@@ -1,67 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./stylesheets/reset.css">
-    <link rel="stylesheet" href="./stylesheets/responsive.css">
-    <link rel="stylesheet" href="./stylesheets/style.css">
-    <link rel="shortcut icon" href="./assets/images/user-tag.svg" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="João Gabriel" />
+    
+    <!-- Import CSS, fonts and icons -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/user-tag.svg"
+      type="image/x-icon"
+    />
     <title>Faça login na sua conta</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <section class="figure_class">
-            <figcaption>
-                <figure class="figure_container">
-                    <div class="draw_figure">
-                        <img src="./assets/images/icons_svg_login.svg" alt="About Us Page." class="svg_login">
-                    </div>
-                </figure>
-            </figcaption>
-        </section>
-        <section class="form_class">
-            <div class="form_container">
-                <div class="box_form">
-                    <div class="welcome_text">
-                        <h3>Bem vindo de volta</h3>
-                        <h1>Faça login na sua conta</h1>
-                    </div>
-                    <div class="input_email_class">
-                        <label>E-mail</label>
-                        <div class="box_email">
-                            <input type="email" name="email_log" id="email_id" class="email_class">
-                        </div>
-                    </div>
-                    <div class="input_passwd_class">
-                        <label>Senha</label>
-                        <div class="box_passwd">
-                            <input type="password" name="passwd_log" id="passwd_id" class="passwd_class">
-                        </div>
-                    </div>
-                    <div class="checkbox_class">
-                        <label>Lembre de mim</label>
-                        <input type="checkbox" name="checkbox" id="check_id" class="check_class">
-                        <a href="#">Esqueceu sua senha?</a>
-                    </div>
-                    <div class="btn_logon">
-                        <input type="button" value="Entrar">
-                    </div>
-                    <div class="log_with_Google">
-                        <input type="button" value="Ou faça login com o Google">
-                    </div>
-                </div>
-                <footer>
-                    <div class="sign_in_class">
-                        <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
-                    </div>
-                </footer>
+      <div class="image container">
+        <img src="./assets/img/icons_svg_login.svg" alt="Imagem Figurativa">
+      </div>
+      <div class="form container">
+
+        <div class="form-box">
+
+          <div class="hd-form">
+            <p>Bem vindo de volta</p>
+            <h2>Faça login na sua conta</h2>
+          </div>
+
+
+          <div class="wrapper-inputs">
+
+            <div class="line">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" autocomplete="off" id="email-id" placeholder="your-email@email.com">
             </div>
-        </section>
+
+           <div class="line">
+              <label for="email">Senha</label>
+              <input type="password" name="passwd" id="passwd-id" placeholder="Senha">
+            </div>
+
+            <div class="remember">
+              <div>
+                <input type="checkbox" name="remember" id="remember-id" placeholder="Lembre de mim">
+                <label for="remember">Lembre de mim</label>
+              </div>
+              <a href="#" rel="noopener noreferrer">Esqueceu sua senha?</a>
+            </div>
+
+          </div>
+
+          <div class="submit-login">
+            <button type="submit" class="form-bt log">Entrar</button>
+            <button type="submit" class="form-bt log-google">
+              <img src="./assets/img/icon_Google.svg" alt="Icone do Google">
+              Ou faça login com o Google
+            </button>
+          </div>
+
+        </div>
+
+        <div class="sign-in">
+          <p>Não tem uma conta? <a href="#" rel="noopener noreferrer">Cadastre-se</a></p>
+        </div>
+
+      </div>
     </main>
-</body>
+  </body>
 </html>
