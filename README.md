@@ -4,7 +4,7 @@
 
 ---
 
-<img src="/github/preview.png"/>
+<img src="/.github/preview.png"/>
 
 <h4 align="center"><a href="">Clique para visitar o projeto</a></h4>
 
