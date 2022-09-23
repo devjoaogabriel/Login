@@ -36,9 +36,9 @@ a {
     width: 50vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-flow: column;
+    justify-content: center;
+    flex-direction: column;
     color: #1A202C;
 }
 
@@ -51,8 +51,8 @@ a {
     height: 330px;
 }
 
+
 .form-box {
-    height: 100vh;
     max-width: 350px;
     width: 100%;
     display: flex;
@@ -93,6 +93,7 @@ a {
     border: 1px solid #E8E8E8;
     border-radius: 5px;
     transition: all ease-in-out .3s;
+    font: 600 normal 1.4rem/1.9rem 'Lato', sans-serif;
 }
 
 .remember {
@@ -140,12 +141,17 @@ a {
 }
 
 .sign-in {
-    display: flex;
+    position: sticky;
+    bottom: 50px;
     font: 600 normal 1.6rem/1.9rem 'Lato', sans-serif;
 }
 
 input[type="checkbox"] {
     margin-top: 0.3rem;
+}
+
+.wrapper-inputs input::placeholder {
+    font: 600 normal 1.4rem/1.9rem 'Lato', sans-serif;
 }
 
 /* EFEITOS HOVER */
