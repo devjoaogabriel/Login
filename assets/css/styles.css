@@ -208,6 +208,7 @@ a:focus-within {
 
     main {
         min-height: 700px;
+        overflow: hidden;
     }
 }
 
