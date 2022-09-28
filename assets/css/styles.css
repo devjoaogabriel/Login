@@ -106,6 +106,7 @@ a {
 
 .remember div {
     display: flex;
+    align-items: center;
     width: 120px;
     column-gap: 11px;
 }
@@ -144,10 +145,6 @@ a {
     position: absolute;
     bottom: 50px;
     font: 600 normal 1.6rem/1.9rem 'Lato', sans-serif;
-}
-
-input[type="checkbox"] {
-    margin-top: 0.2rem;
 }
 
 .wrapper-inputs input::placeholder {
@@ -207,7 +204,7 @@ a:focus-within {
     }
 
     main {
-        min-height: 700px;
+        min-height: 100vh;
         overflow: hidden;
     }
 }
