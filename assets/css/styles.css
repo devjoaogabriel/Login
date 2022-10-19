@@ -170,24 +170,22 @@ a:focus-within {
     color: rgb(0, 123, 255);
 }
 
-.submit-login .form-bt:hover {
-    box-shadow: 0 0 16px rgba(160, 160, 160, 0.459);
+.submit-login .log-google:hover {
+    filter: brightness(1.1);
 }
 
 .submit-login .log:hover {
-    background-color: rgb(61, 202, 127);
+    background-color: #07a752;
 }
 
 .submit-login .log:focus {
     background-color: #14a055;
 }
 
-.submit-login .log-google:hover {
-    background-color: rgb(50, 57, 73);
-}
-
 .submit-login .log-google:focus {
-    background-color: #13151a;
+    background-color: transparent;
+    border: 2px solid #1A202C;
+    color: #1A202C;
 }
 
 /* BREAKPOINTS */
